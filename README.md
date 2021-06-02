@@ -12,7 +12,7 @@ Install with:
 
 ```bash
 
-$ go get github.com/gerencianet/gn-api-sdk-go/gerencianet
+$ go get github.com/gerencianet/gn-api-sdk-go-pix/gerencianet
 ```
 ## Tested with
 ```
