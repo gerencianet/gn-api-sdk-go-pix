@@ -56,7 +56,7 @@ body := map[string]interface{} {
 				"original": "00.01",
 			
 		},
-		"chave": "2c5c7441-a91e-4982-8c25-6105581e18ae",
+		"chave": "47e7e515-44d3-42cc-8e1f-ef529b4ba4d1",
 		"solicitacaoPagador": "Teste.",
 		"infoAdicionais": []map[string]interface{} {
 			{
