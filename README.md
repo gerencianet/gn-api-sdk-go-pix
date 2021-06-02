@@ -1,4 +1,4 @@
-# gn-api-sdk-go
+# gn-api-sdk-go-pix
 
 > A go library for integration of your backend with the payment services
 provided by [Gerencianet](http://gerencianet.com.br).
