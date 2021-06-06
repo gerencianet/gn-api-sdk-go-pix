@@ -19,6 +19,11 @@ $ go get github.com/gerencianet/gn-api-sdk-go-pix/gerencianet
 go 1.15.5
 
 ```
+## Certificate conversion
+```js
+openssl pkcs12 -in path.p12 -out newfile.crt.pem -clcerts -nokeys #certificado
+openssl pkcs12 -in path.p12 -out newfile.key.pem -nocerts -nodes #chave privada
+```
 ## Basic usage
 
 ```go
