@@ -21,8 +21,8 @@ go 1.15.5
 ```
 ## Certificate conversion
 ```js
-openssl pkcs12 -in path.p12 -out newfile.crt.pem -clcerts -nokeys #certificado
-openssl pkcs12 -in path.p12 -out newfile.key.pem -nocerts -nodes #chave privada
+openssl pkcs12 -in path.p12 -out newfile.crt.pem -clcerts -nokeys  //  certificado 
+openssl pkcs12 -in path.p12 -out newfile.key.pem -nocerts -nodes //  chave privada
 ```
 ## Basic usage
 
