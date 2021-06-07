@@ -1,4 +1,4 @@
-# gn-api-sdk-go
+# gn-api-sdk-go-pix
 
 > A go library for integration of your backend with the payment services
 provided by [Gerencianet](http://gerencianet.com.br).
@@ -19,6 +19,11 @@ $ go mod init github.com/gerencianet/gn-api-sdk-go-pix
 ```
 go 1.16.5
 
+```
+## Certificate conversion
+```js
+openssl pkcs12 -in path.p12 -out newfile.crt.pem -clcerts -nokeys  //  certificado 
+openssl pkcs12 -in path.p12 -out newfile.key.pem -nocerts -nodes //  chave privada
 ```
 ## Basic usage
 
@@ -57,7 +62,7 @@ body := map[string]interface{} {
 				"original": "00.01",
 			
 		},
-		"chave": "2c5c7441-a91e-4982-8c25-6105581e18ae",
+		"chave": "47e7e515-44d3-42cc-8e1f-ef529b4ba4d1",
 		"solicitacaoPagador": "Teste.",
 		"infoAdicionais": []map[string]interface{} {
 			{
