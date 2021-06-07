@@ -13,10 +13,11 @@ Install with:
 ```bash
 
 $ go get github.com/gerencianet/gn-api-sdk-go/gerencianet
+$ go mod init github.com/gerencianet/gn-api-sdk-go-pix
 ```
 ## Tested with
 ```
-go 1.15.5
+go 1.16.5
 
 ```
 ## Basic usage
