@@ -31,8 +31,8 @@ openssl pkcs12 -in path.p12 -out newfile.key.pem -nocerts -nodes //  chave priva
 
 import (
 	"fmt"
-	"../../gerencianet"
-	"../configs"
+	"github.com/gerencianet/gn-api-sdk-go-pix/gerencianet"
+	"github.com/gerencianet/gn-api-sdk-go-pix/_examples/configs"
 )
 
 credentials := map[string]interface{} {
