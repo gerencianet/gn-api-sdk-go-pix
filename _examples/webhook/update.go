@@ -16,7 +16,7 @@ func main(){
 
 	body := map[string]interface{} {
 		
-		"webhookUrl": "https://gnmatheus.igorpedroso.dev:3000/webhook",
+		"webhookUrl": "https://seu_webhook",
 	}
 
 	res, err := gn.UpdateWebhook(chave,body) 
