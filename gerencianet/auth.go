@@ -34,7 +34,7 @@ func newAuth(clientID string, clientSecret string,CA string, Key string, sandbox
 	
 	var cert, erro = tls.LoadX509KeyPair(CA, Key)
 	if erro != nil {
-		println("Here",erro)
+		println("Erro ao carregar par de chaves",erro)
 	}
 
 	
