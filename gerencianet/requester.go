@@ -90,7 +90,7 @@ func (requester requester) request(endpoint string, httpVerb string, requestPara
 	reqResp, _ := ioutil.ReadAll(res.Body)
 	response := string(reqResp)
 
-	if res.StatusCode != http.StatusOK {
+	if (res.StatusCode != http.StatusOK && res.StatusCode != http.StatusCreated) {
 		return "", errors.New(response)
 	}
 
